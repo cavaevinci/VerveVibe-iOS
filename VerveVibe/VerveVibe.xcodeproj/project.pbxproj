@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F129F3A2BAA2AA6004D9269 /* VerveVibeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F392BAA2AA6004D9269 /* VerveVibeApp.swift */; };
+		3F129F3C2BAA2AA6004D9269 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F3B2BAA2AA6004D9269 /* ContentView.swift */; };
+		3F129F3E2BAA2AAB004D9269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F129F3D2BAA2AAB004D9269 /* Assets.xcassets */; };
+		3F129F412BAA2AAB004D9269 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F129F402BAA2AAB004D9269 /* Preview Assets.xcassets */; };
+		3F129F4B2BAA2AAC004D9269 /* VerveVibeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F4A2BAA2AAC004D9269 /* VerveVibeTests.swift */; };
+		3F129F552BAA2AAC004D9269 /* VerveVibeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F542BAA2AAC004D9269 /* VerveVibeUITests.swift */; };
+		3F129F572BAA2AAC004D9269 /* VerveVibeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F562BAA2AAC004D9269 /* VerveVibeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F129F472BAA2AAC004D9269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F129F2E2BAA2AA6004D9269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F129F352BAA2AA6004D9269;
+			remoteInfo = VerveVibe;
+		};
+		3F129F512BAA2AAC004D9269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F129F2E2BAA2AA6004D9269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F129F352BAA2AA6004D9269;
+			remoteInfo = VerveVibe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F129F362BAA2AA6004D9269 /* VerveVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerveVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F129F392BAA2AA6004D9269 /* VerveVibeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerveVibeApp.swift; sourceTree = "<group>"; };
+		3F129F3B2BAA2AA6004D9269 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F129F3D2BAA2AAB004D9269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F129F402BAA2AAB004D9269 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F129F462BAA2AAC004D9269 /* VerveVibeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerveVibeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F129F4A2BAA2AAC004D9269 /* VerveVibeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerveVibeTests.swift; sourceTree = "<group>"; };
+		3F129F502BAA2AAC004D9269 /* VerveVibeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerveVibeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F129F542BAA2AAC004D9269 /* VerveVibeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerveVibeUITests.swift; sourceTree = "<group>"; };
+		3F129F562BAA2AAC004D9269 /* VerveVibeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerveVibeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F129F332BAA2AA6004D9269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F129F432BAA2AAC004D9269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F129F4D2BAA2AAC004D9269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F129F2D2BAA2AA6004D9269 = {
+			isa = PBXGroup;
+			children = (
+				3F129F382BAA2AA6004D9269 /* VerveVibe */,
+				3F129F492BAA2AAC004D9269 /* VerveVibeTests */,
+				3F129F532BAA2AAC004D9269 /* VerveVibeUITests */,
+				3F129F372BAA2AA6004D9269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F129F372BAA2AA6004D9269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F129F362BAA2AA6004D9269 /* VerveVibe.app */,
+				3F129F462BAA2AAC004D9269 /* VerveVibeTests.xctest */,
+				3F129F502BAA2AAC004D9269 /* VerveVibeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F129F382BAA2AA6004D9269 /* VerveVibe */ = {
+			isa = PBXGroup;
+			children = (
+				3F129F392BAA2AA6004D9269 /* VerveVibeApp.swift */,
+				3F129F3B2BAA2AA6004D9269 /* ContentView.swift */,
+				3F129F3D2BAA2AAB004D9269 /* Assets.xcassets */,
+				3F129F3F2BAA2AAB004D9269 /* Preview Content */,
+			);
+			path = VerveVibe;
+			sourceTree = "<group>";
+		};
+		3F129F3F2BAA2AAB004D9269 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F129F402BAA2AAB004D9269 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F129F492BAA2AAC004D9269 /* VerveVibeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F129F4A2BAA2AAC004D9269 /* VerveVibeTests.swift */,
+			);
+			path = VerveVibeTests;
+			sourceTree = "<group>";
+		};
+		3F129F532BAA2AAC004D9269 /* VerveVibeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F129F542BAA2AAC004D9269 /* VerveVibeUITests.swift */,
+				3F129F562BAA2AAC004D9269 /* VerveVibeUITestsLaunchTests.swift */,
+			);
+			path = VerveVibeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F129F352BAA2AA6004D9269 /* VerveVibe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F129F5A2BAA2AAC004D9269 /* Build configuration list for PBXNativeTarget "VerveVibe" */;
+			buildPhases = (
+				3F129F322BAA2AA6004D9269 /* Sources */,
+				3F129F332BAA2AA6004D9269 /* Frameworks */,
+				3F129F342BAA2AA6004D9269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerveVibe;
+			productName = VerveVibe;
+			productReference = 3F129F362BAA2AA6004D9269 /* VerveVibe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F129F452BAA2AAC004D9269 /* VerveVibeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F129F5D2BAA2AAC004D9269 /* Build configuration list for PBXNativeTarget "VerveVibeTests" */;
+			buildPhases = (
+				3F129F422BAA2AAC004D9269 /* Sources */,
+				3F129F432BAA2AAC004D9269 /* Frameworks */,
+				3F129F442BAA2AAC004D9269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F129F482BAA2AAC004D9269 /* PBXTargetDependency */,
+			);
+			name = VerveVibeTests;
+			productName = VerveVibeTests;
+			productReference = 3F129F462BAA2AAC004D9269 /* VerveVibeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F129F4F2BAA2AAC004D9269 /* VerveVibeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F129F602BAA2AAC004D9269 /* Build configuration list for PBXNativeTarget "VerveVibeUITests" */;
+			buildPhases = (
+				3F129F4C2BAA2AAC004D9269 /* Sources */,
+				3F129F4D2BAA2AAC004D9269 /* Frameworks */,
+				3F129F4E2BAA2AAC004D9269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F129F522BAA2AAC004D9269 /* PBXTargetDependency */,
+			);
+			name = VerveVibeUITests;
+			productName = VerveVibeUITests;
+			productReference = 3F129F502BAA2AAC004D9269 /* VerveVibeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F129F2E2BAA2AA6004D9269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3F129F352BAA2AA6004D9269 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					3F129F452BAA2AAC004D9269 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3F129F352BAA2AA6004D9269;
+					};
+					3F129F4F2BAA2AAC004D9269 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3F129F352BAA2AA6004D9269;
+					};
+				};
+			};
+			buildConfigurationList = 3F129F312BAA2AA6004D9269 /* Build configuration list for PBXProject "VerveVibe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F129F2D2BAA2AA6004D9269;
+			productRefGroup = 3F129F372BAA2AA6004D9269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F129F352BAA2AA6004D9269 /* VerveVibe */,
+				3F129F452BAA2AAC004D9269 /* VerveVibeTests */,
+				3F129F4F2BAA2AAC004D9269 /* VerveVibeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F129F342BAA2AA6004D9269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F129F412BAA2AAB004D9269 /* Preview Assets.xcassets in Resources */,
+				3F129F3E2BAA2AAB004D9269 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F129F442BAA2AAC004D9269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F129F4E2BAA2AAC004D9269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F129F322BAA2AA6004D9269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F129F3C2BAA2AA6004D9269 /* ContentView.swift in Sources */,
+				3F129F3A2BAA2AA6004D9269 /* VerveVibeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F129F422BAA2AAC004D9269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F129F4B2BAA2AAC004D9269 /* VerveVibeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F129F4C2BAA2AAC004D9269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F129F552BAA2AAC004D9269 /* VerveVibeUITests.swift in Sources */,
+				3F129F572BAA2AAC004D9269 /* VerveVibeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F129F482BAA2AAC004D9269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F129F352BAA2AA6004D9269 /* VerveVibe */;
+			targetProxy = 3F129F472BAA2AAC004D9269 /* PBXContainerItemProxy */;
+		};
+		3F129F522BAA2AAC004D9269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F129F352BAA2AA6004D9269 /* VerveVibe */;
+			targetProxy = 3F129F512BAA2AAC004D9269 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F129F582BAA2AAC004D9269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F129F592BAA2AAC004D9269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F129F5B2BAA2AAC004D9269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VerveVibe/Preview Content\"";
+				DEVELOPMENT_TEAM = 77W89J72K4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cavaevinci.VerveVibe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F129F5C2BAA2AAC004D9269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VerveVibe/Preview Content\"";
+				DEVELOPMENT_TEAM = 77W89J72K4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cavaevinci.VerveVibe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F129F5E2BAA2AAC004D9269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77W89J72K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cavaevinci.VerveVibeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerveVibe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VerveVibe";
+			};
+			name = Debug;
+		};
+		3F129F5F2BAA2AAC004D9269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77W89J72K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cavaevinci.VerveVibeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerveVibe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VerveVibe";
+			};
+			name = Release;
+		};
+		3F129F612BAA2AAC004D9269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77W89J72K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cavaevinci.VerveVibeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VerveVibe;
+			};
+			name = Debug;
+		};
+		3F129F622BAA2AAC004D9269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77W89J72K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cavaevinci.VerveVibeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VerveVibe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F129F312BAA2AA6004D9269 /* Build configuration list for PBXProject "VerveVibe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F129F582BAA2AAC004D9269 /* Debug */,
+				3F129F592BAA2AAC004D9269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F129F5A2BAA2AAC004D9269 /* Build configuration list for PBXNativeTarget "VerveVibe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F129F5B2BAA2AAC004D9269 /* Debug */,
+				3F129F5C2BAA2AAC004D9269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F129F5D2BAA2AAC004D9269 /* Build configuration list for PBXNativeTarget "VerveVibeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F129F5E2BAA2AAC004D9269 /* Debug */,
+				3F129F5F2BAA2AAC004D9269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F129F602BAA2AAC004D9269 /* Build configuration list for PBXNativeTarget "VerveVibeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F129F612BAA2AAC004D9269 /* Debug */,
+				3F129F622BAA2AAC004D9269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F129F2E2BAA2AA6004D9269 /* Project object */;
+}
