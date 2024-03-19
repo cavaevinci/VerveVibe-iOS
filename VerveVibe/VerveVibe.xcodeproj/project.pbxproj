@@ -14,6 +14,7 @@
 		3F129F4B2BAA2AAC004D9269 /* VerveVibeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F4A2BAA2AAC004D9269 /* VerveVibeTests.swift */; };
 		3F129F552BAA2AAC004D9269 /* VerveVibeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F542BAA2AAC004D9269 /* VerveVibeUITests.swift */; };
 		3F129F572BAA2AAC004D9269 /* VerveVibeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F562BAA2AAC004D9269 /* VerveVibeUITestsLaunchTests.swift */; };
+		3F129F6E2BAA2D60004D9269 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F6D2BAA2D60004D9269 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3F129F502BAA2AAC004D9269 /* VerveVibeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerveVibeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F129F542BAA2AAC004D9269 /* VerveVibeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerveVibeUITests.swift; sourceTree = "<group>"; };
 		3F129F562BAA2AAC004D9269 /* VerveVibeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerveVibeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F129F6D2BAA2D60004D9269 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,11 @@
 		3F129F382BAA2AA6004D9269 /* VerveVibe */ = {
 			isa = PBXGroup;
 			children = (
-				3F129F392BAA2AA6004D9269 /* VerveVibeApp.swift */,
+				3F129F672BAA2CFF004D9269 /* Utilities */,
+				3F129F662BAA2CF9004D9269 /* Shared */,
+				3F129F652BAA2CF1004D9269 /* Extensions */,
+				3F129F642BAA2CE3004D9269 /* Core */,
+				3F129F632BAA2CD2004D9269 /* App */,
 				3F129F3B2BAA2AA6004D9269 /* ContentView.swift */,
 				3F129F3D2BAA2AAB004D9269 /* Assets.xcassets */,
 				3F129F3F2BAA2AAB004D9269 /* Preview Content */,
@@ -125,6 +131,83 @@
 				3F129F562BAA2AAC004D9269 /* VerveVibeUITestsLaunchTests.swift */,
 			);
 			path = VerveVibeUITests;
+			sourceTree = "<group>";
+		};
+		3F129F632BAA2CD2004D9269 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3F129F392BAA2AA6004D9269 /* VerveVibeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3F129F642BAA2CE3004D9269 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3F129F6C2BAA2D3A004D9269 /* Messaging */,
+				3F129F6B2BAA2D32004D9269 /* Search */,
+				3F129F6A2BAA2D2C004D9269 /* Profile */,
+				3F129F692BAA2D25004D9269 /* Cards */,
+				3F129F682BAA2D1E004D9269 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3F129F652BAA2CF1004D9269 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3F129F662BAA2CF9004D9269 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3F129F672BAA2CFF004D9269 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3F129F682BAA2D1E004D9269 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3F129F6D2BAA2D60004D9269 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		3F129F692BAA2D25004D9269 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		3F129F6A2BAA2D2C004D9269 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3F129F6B2BAA2D32004D9269 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		3F129F6C2BAA2D3A004D9269 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messaging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +342,7 @@
 			files = (
 				3F129F3C2BAA2AA6004D9269 /* ContentView.swift in Sources */,
 				3F129F3A2BAA2AA6004D9269 /* VerveVibeApp.swift in Sources */,
+				3F129F6E2BAA2D60004D9269 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
