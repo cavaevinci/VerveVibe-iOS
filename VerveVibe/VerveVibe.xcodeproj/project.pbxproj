@@ -17,6 +17,8 @@
 		3F129F6E2BAA2D60004D9269 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F6D2BAA2D60004D9269 /* MainTabView.swift */; };
 		3F129F702BAA2EFD004D9269 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F6F2BAA2EFC004D9269 /* CardView.swift */; };
 		3F129F722BAAFC13004D9269 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F712BAAFC13004D9269 /* UserInfoView.swift */; };
+		3F129F742BAB5067004D9269 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F732BAB5066004D9269 /* SwipeActionIndicatorView.swift */; };
+		3F129F772BAB5993004D9269 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F762BAB5992004D9269 /* SizeConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		3F129F6D2BAA2D60004D9269 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		3F129F6F2BAA2EFC004D9269 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3F129F712BAAFC13004D9269 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		3F129F732BAB5066004D9269 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
+		3F129F762BAB5992004D9269 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,7 @@
 		3F129F672BAA2CFF004D9269 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				3F129F752BAB5971004D9269 /* Constants */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 			children = (
 				3F129F6F2BAA2EFC004D9269 /* CardView.swift */,
 				3F129F712BAAFC13004D9269 /* UserInfoView.swift */,
+				3F129F732BAB5066004D9269 /* SwipeActionIndicatorView.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -214,6 +220,14 @@
 			children = (
 			);
 			path = Messaging;
+			sourceTree = "<group>";
+		};
+		3F129F752BAB5971004D9269 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3F129F762BAB5992004D9269 /* SizeConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,8 +361,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F129F3C2BAA2AA6004D9269 /* ContentView.swift in Sources */,
+				3F129F742BAB5067004D9269 /* SwipeActionIndicatorView.swift in Sources */,
 				3F129F3A2BAA2AA6004D9269 /* VerveVibeApp.swift in Sources */,
 				3F129F702BAA2EFD004D9269 /* CardView.swift in Sources */,
+				3F129F772BAB5993004D9269 /* SizeConstants.swift in Sources */,
 				3F129F722BAAFC13004D9269 /* UserInfoView.swift in Sources */,
 				3F129F6E2BAA2D60004D9269 /* MainTabView.swift in Sources */,
 			);
