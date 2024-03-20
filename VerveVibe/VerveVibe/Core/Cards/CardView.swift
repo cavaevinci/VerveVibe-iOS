@@ -11,14 +11,23 @@ struct CardView: View {
     
     @State private var xOffset: CGFloat = 0
     @State private var degrees: CGFloat = 0
+    @State private var currentImageIndex = 0
+    
+    @State private var mockImages = [
+        "TestImage1",
+        "TestImage2",
+        "TestImage3"
+    ]
     
     var body: some View {
         ZStack(alignment: .bottom) {
             ZStack(alignment: .top) {
-                Image("TestImage")
+                Image(mockImages[currentImageIndex])
                     .resizable()
                     .scaledToFill()
-                
+                    .overlay {
+                        ImageScrollingOverlay(currentImageIndex: $currentImageIndex)
+                    }
                 SwipeActionIndicatorView(xOffset: $xOffset)
             }
             

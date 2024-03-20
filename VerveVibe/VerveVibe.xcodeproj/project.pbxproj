@@ -19,6 +19,7 @@
 		3F129F722BAAFC13004D9269 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F712BAAFC13004D9269 /* UserInfoView.swift */; };
 		3F129F742BAB5067004D9269 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F732BAB5066004D9269 /* SwipeActionIndicatorView.swift */; };
 		3F129F772BAB5993004D9269 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F762BAB5992004D9269 /* SizeConstants.swift */; };
+		3F129F792BAB6BAE004D9269 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F782BAB6BAE004D9269 /* ImageScrollingOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		3F129F712BAAFC13004D9269 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 		3F129F732BAB5066004D9269 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		3F129F762BAB5992004D9269 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
+		3F129F782BAB6BAE004D9269 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 				3F129F6F2BAA2EFC004D9269 /* CardView.swift */,
 				3F129F712BAAFC13004D9269 /* UserInfoView.swift */,
 				3F129F732BAB5066004D9269 /* SwipeActionIndicatorView.swift */,
+				3F129F782BAB6BAE004D9269 /* ImageScrollingOverlay.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F129F792BAB6BAE004D9269 /* ImageScrollingOverlay.swift in Sources */,
 				3F129F3C2BAA2AA6004D9269 /* ContentView.swift in Sources */,
 				3F129F742BAB5067004D9269 /* SwipeActionIndicatorView.swift in Sources */,
 				3F129F3A2BAA2AA6004D9269 /* VerveVibeApp.swift in Sources */,
