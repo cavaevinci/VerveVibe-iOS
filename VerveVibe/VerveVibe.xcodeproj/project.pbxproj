@@ -16,6 +16,7 @@
 		3F129F572BAA2AAC004D9269 /* VerveVibeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F562BAA2AAC004D9269 /* VerveVibeUITestsLaunchTests.swift */; };
 		3F129F6E2BAA2D60004D9269 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F6D2BAA2D60004D9269 /* MainTabView.swift */; };
 		3F129F702BAA2EFD004D9269 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F6F2BAA2EFC004D9269 /* CardView.swift */; };
+		3F129F722BAAFC13004D9269 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F712BAAFC13004D9269 /* UserInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		3F129F562BAA2AAC004D9269 /* VerveVibeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerveVibeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3F129F6D2BAA2D60004D9269 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		3F129F6F2BAA2EFC004D9269 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3F129F712BAAFC13004D9269 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				3F129F6F2BAA2EFC004D9269 /* CardView.swift */,
+				3F129F712BAAFC13004D9269 /* UserInfoView.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				3F129F3C2BAA2AA6004D9269 /* ContentView.swift in Sources */,
 				3F129F3A2BAA2AA6004D9269 /* VerveVibeApp.swift in Sources */,
 				3F129F702BAA2EFD004D9269 /* CardView.swift in Sources */,
+				3F129F722BAAFC13004D9269 /* UserInfoView.swift in Sources */,
 				3F129F6E2BAA2D60004D9269 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

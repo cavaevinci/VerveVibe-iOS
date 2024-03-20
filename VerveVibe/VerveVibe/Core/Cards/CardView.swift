@@ -11,11 +11,13 @@ struct CardView: View {
     
     var body: some View {
         ZStack(alignment: .bottom) {
-            Image(systemName: "photo")
+            Image("MockImage")
                 .resizable()
                 .scaledToFill()
                 .frame(width: cardWidth, height: cardHeight)
                 .clipShape(RoundedRectangle(cornerRadius:10))
+            UserInfoView()
+                .padding(.horizontal)
         }
     }
 }
