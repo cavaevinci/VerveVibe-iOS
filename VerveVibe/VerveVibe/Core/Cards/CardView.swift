@@ -14,7 +14,7 @@ struct CardView: View {
     
     var body: some View {
         ZStack(alignment: .bottom) {
-            Image("MockImage")
+            Image(systemName: "heart.fill")
                 .resizable()
                 .scaledToFill()
             UserInfoView()

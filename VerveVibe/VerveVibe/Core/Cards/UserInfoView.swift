@@ -22,7 +22,7 @@ struct UserInfoView: View {
                     print("DEBUG: Show profile here")
                 } label: {
                     Image(systemName: "arrow.up.circle")
-                        .fontWeight(.bold)
+                         .fontWeight(.bold)
                         .imageScale(.large)
                 }
             }
