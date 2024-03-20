@@ -23,6 +23,8 @@ struct MainTabView: View {
                 .tabItem { Image(systemName: "person")}
                 .tag(3)
         }
+        //automatically adjusts to system color
+        .tint(.primary)
     }
 }
 
