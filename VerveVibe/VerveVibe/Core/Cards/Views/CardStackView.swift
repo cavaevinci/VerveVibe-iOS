@@ -9,19 +9,27 @@ import SwiftUI
 
 struct CardStackView: View {
     
+    @State private var showMatchView = true
     @StateObject var viewModel = CardsViewModel(service: CardService())
     
     var body: some View {
         NavigationStack {
-            VStack(spacing: 16) {
-                ZStack {
-                    ForEach(viewModel.cardModels) { card in
-                        CardView(viewModel: viewModel, model: card)
+            ZStack {
+                VStack(spacing: 16) {
+                    ZStack {
+                        ForEach(viewModel.cardModels) { card in
+                            CardView(viewModel: viewModel, model: card)
+                        }
+                    }
+                    
+                    if !viewModel.cardModels.isEmpty {
+                        SwipeActionButtonsView(viewModel: viewModel)
                     }
                 }
-                
-                if !viewModel.cardModels.isEmpty {
-                    SwipeActionButtonsView(viewModel: viewModel)
+                .blur(radius: showMatchView ? 20 : 0)
+
+                if showMatchView {
+                    UserMatchView(show: $showMatchView)
                 }
             }
             .toolbar {
