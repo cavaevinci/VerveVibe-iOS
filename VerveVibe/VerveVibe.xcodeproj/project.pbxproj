@@ -26,6 +26,7 @@
 		3F6618652BAE6B26003C6C0E /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6618642BAE6B26003C6C0E /* CardsViewModel.swift */; };
 		3F6618682BAE6B6B003C6C0E /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6618672BAE6B6B003C6C0E /* CardService.swift */; };
 		3F66186B2BAE6C26003C6C0E /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66186A2BAE6C26003C6C0E /* MockData.swift */; };
+		3F66186D2BAE783B003C6C0E /* SwipeActionButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66186C2BAE783B003C6C0E /* SwipeActionButtonsView.swift */; };
 		3FFBCF852BAE5F1500588C7E /* CardImageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBCF842BAE5F1500588C7E /* CardImageIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		3F6618642BAE6B26003C6C0E /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
 		3F6618672BAE6B6B003C6C0E /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
 		3F66186A2BAE6C26003C6C0E /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		3F66186C2BAE783B003C6C0E /* SwipeActionButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionButtonsView.swift; sourceTree = "<group>"; };
 		3FFBCF842BAE5F1500588C7E /* CardImageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -274,6 +276,7 @@
 				3F129F782BAB6BAE004D9269 /* ImageScrollingOverlay.swift */,
 				3FFBCF842BAE5F1500588C7E /* CardImageIndicatorView.swift */,
 				3F6618592BAE6507003C6C0E /* CardStackView.swift */,
+				3F66186C2BAE783B003C6C0E /* SwipeActionButtonsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				3F66186B2BAE6C26003C6C0E /* MockData.swift in Sources */,
 				3F129F3A2BAA2AA6004D9269 /* VerveVibeApp.swift in Sources */,
 				3FFBCF852BAE5F1500588C7E /* CardImageIndicatorView.swift in Sources */,
+				3F66186D2BAE783B003C6C0E /* SwipeActionButtonsView.swift in Sources */,
 				3F6618622BAE6AC4003C6C0E /* CardModel.swift in Sources */,
 				3F66185A2BAE6507003C6C0E /* CardStackView.swift in Sources */,
 				3F129F702BAA2EFD004D9269 /* CardView.swift in Sources */,
