@@ -8,22 +8,38 @@
 import SwiftUI
 
 struct ImageScrollingOverlay: View {
+    
     @Binding var currentImageIndex: Int
+    
+    let imageCount: Int
+    
     var body: some View {
         HStack {
             Rectangle()
                 .onTapGesture {
-                    print(" GO TO PREVIOUS IMAGE")
+                    updateImageIndex(increment: false)
                 }
             Rectangle()
                 .onTapGesture {
-                    print(" GO TO NEXT IMAGE")
+                    updateImageIndex(increment: true)
                 }
         }
         .foregroundStyle(.red.opacity(0.25))
     }
 }
 
+private extension ImageScrollingOverlay {
+    func updateImageIndex(increment: Bool) {
+        if increment {
+            guard currentImageIndex < imageCount - 1 else { return }
+            currentImageIndex += 1
+        } else {
+            guard currentImageIndex > 0 else { return }
+            currentImageIndex -= 1
+        }
+    }
+}
+
 #Preview {
-    ImageScrollingOverlay(currentImageIndex: .constant(1))
+    ImageScrollingOverlay(currentImageIndex: .constant(1), imageCount: 2)
 }
