@@ -21,6 +21,7 @@
 		3F129F772BAB5993004D9269 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F762BAB5992004D9269 /* SizeConstants.swift */; };
 		3F129F792BAB6BAE004D9269 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129F782BAB6BAE004D9269 /* ImageScrollingOverlay.swift */; };
 		3F552F6A2BAF0A3F00ACD0B3 /* UserMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F552F692BAF0A3E00ACD0B3 /* UserMatchView.swift */; };
+		3F552F6D2BAF0E1B00ACD0B3 /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F552F6C2BAF0E1B00ACD0B3 /* MatchManager.swift */; };
 		3F66185A2BAE6507003C6C0E /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6618592BAE6507003C6C0E /* CardStackView.swift */; };
 		3F66185E2BAE68B5003C6C0E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66185D2BAE68B5003C6C0E /* User.swift */; };
 		3F6618622BAE6AC4003C6C0E /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6618612BAE6AC4003C6C0E /* CardModel.swift */; };
@@ -72,6 +73,7 @@
 		3F129F762BAB5992004D9269 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 		3F129F782BAB6BAE004D9269 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 		3F552F692BAF0A3E00ACD0B3 /* UserMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMatchView.swift; sourceTree = "<group>"; };
+		3F552F6C2BAF0E1B00ACD0B3 /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchManager.swift; sourceTree = "<group>"; };
 		3F6618592BAE6507003C6C0E /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
 		3F66185D2BAE68B5003C6C0E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3F6618612BAE6AC4003C6C0E /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 		3F552F672BAF0A1D00ACD0B3 /* Matches */ = {
 			isa = PBXGroup;
 			children = (
+				3F552F6B2BAF0E0900ACD0B3 /* Manager */,
 				3F552F682BAF0A2A00ACD0B3 /* View */,
 			);
 			path = Matches;
@@ -283,6 +286,14 @@
 				3F552F692BAF0A3E00ACD0B3 /* UserMatchView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3F552F6B2BAF0E0900ACD0B3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3F552F6C2BAF0E1B00ACD0B3 /* MatchManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		3F66185B2BAE689E003C6C0E /* Users */ = {
@@ -517,6 +528,7 @@
 				3F129F3A2BAA2AA6004D9269 /* VerveVibeApp.swift in Sources */,
 				3FFBCF852BAE5F1500588C7E /* CardImageIndicatorView.swift in Sources */,
 				3F66186D2BAE783B003C6C0E /* SwipeActionButtonsView.swift in Sources */,
+				3F552F6D2BAF0E1B00ACD0B3 /* MatchManager.swift in Sources */,
 				3F552F6A2BAF0A3F00ACD0B3 /* UserMatchView.swift in Sources */,
 				3F6618622BAE6AC4003C6C0E /* CardModel.swift in Sources */,
 				3F66187C2BAE9315003C6C0E /* ProfileImageGridView.swift in Sources */,

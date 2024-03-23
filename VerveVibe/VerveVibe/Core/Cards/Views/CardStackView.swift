@@ -9,7 +9,8 @@ import SwiftUI
 
 struct CardStackView: View {
     
-    @State private var showMatchView = true
+    @EnvironmentObject var matchManager: MatchManager
+    @State private var showMatchView = false
     @StateObject var viewModel = CardsViewModel(service: CardService())
     
     var body: some View {
@@ -32,6 +33,10 @@ struct CardStackView: View {
                     UserMatchView(show: $showMatchView)
                 }
             }
+            .animation(.easeInOut, value: showMatchView)
+            .onReceive(matchManager.$matchedUser, perform: { user in
+                showMatchView = user != nil
+            })
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Image("VerveVibeLogo")
@@ -46,4 +51,5 @@ struct CardStackView: View {
 
 #Preview {
     CardStackView()
+        .environmentObject(MatchManager())
 }
