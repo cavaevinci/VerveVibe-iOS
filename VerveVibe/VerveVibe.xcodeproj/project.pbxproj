@@ -29,6 +29,8 @@
 		3F66186D2BAE783B003C6C0E /* SwipeActionButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66186C2BAE783B003C6C0E /* SwipeActionButtonsView.swift */; };
 		3F66186F2BAE7AA0003C6C0E /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66186E2BAE7AA0003C6C0E /* SwipeAction.swift */; };
 		3F6618712BAE867B003C6C0E /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6618702BAE867B003C6C0E /* UserProfileView.swift */; };
+		3F6618752BAE8C61003C6C0E /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6618742BAE8C61003C6C0E /* CurrentUserProfileView.swift */; };
+		3F6618772BAE8C9D003C6C0E /* CurrentUserProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6618762BAE8C9D003C6C0E /* CurrentUserProfileHeaderView.swift */; };
 		3FFBCF852BAE5F1500588C7E /* CardImageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBCF842BAE5F1500588C7E /* CardImageIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +77,8 @@
 		3F66186C2BAE783B003C6C0E /* SwipeActionButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionButtonsView.swift; sourceTree = "<group>"; };
 		3F66186E2BAE7AA0003C6C0E /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		3F6618702BAE867B003C6C0E /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		3F6618742BAE8C61003C6C0E /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		3F6618762BAE8C9D003C6C0E /* CurrentUserProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileHeaderView.swift; sourceTree = "<group>"; };
 		3FFBCF842BAE5F1500588C7E /* CardImageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -229,7 +233,8 @@
 		3F129F6A2BAA2D2C004D9269 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				3F6618702BAE867B003C6C0E /* UserProfileView.swift */,
+				3F6618732BAE8C3A003C6C0E /* UserProfile */,
+				3F6618722BAE8C34003C6C0E /* CurrentUserProfile */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -317,6 +322,23 @@
 				3F66186A2BAE6C26003C6C0E /* MockData.swift */,
 			);
 			path = MockData;
+			sourceTree = "<group>";
+		};
+		3F6618722BAE8C34003C6C0E /* CurrentUserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				3F6618742BAE8C61003C6C0E /* CurrentUserProfileView.swift */,
+				3F6618762BAE8C9D003C6C0E /* CurrentUserProfileHeaderView.swift */,
+			);
+			path = CurrentUserProfile;
+			sourceTree = "<group>";
+		};
+		3F6618732BAE8C3A003C6C0E /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				3F6618702BAE867B003C6C0E /* UserProfileView.swift */,
+			);
+			path = UserProfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,8 +472,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F129F792BAB6BAE004D9269 /* ImageScrollingOverlay.swift in Sources */,
+				3F6618752BAE8C61003C6C0E /* CurrentUserProfileView.swift in Sources */,
 				3F6618712BAE867B003C6C0E /* UserProfileView.swift in Sources */,
 				3F6618682BAE6B6B003C6C0E /* CardService.swift in Sources */,
+				3F6618772BAE8C9D003C6C0E /* CurrentUserProfileHeaderView.swift in Sources */,
 				3F129F3C2BAA2AA6004D9269 /* ContentView.swift in Sources */,
 				3F129F742BAB5067004D9269 /* SwipeActionIndicatorView.swift in Sources */,
 				3F66186B2BAE6C26003C6C0E /* MockData.swift in Sources */,
