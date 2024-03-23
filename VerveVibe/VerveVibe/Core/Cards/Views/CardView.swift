@@ -33,6 +33,10 @@ struct CardView: View {
             
             UserInfoView(user: user)
         }
+        .onReceive(viewModel.$buttonSwipeAction, perform: { action in
+            //action is left or right
+            onReceiveSwipeAction(action)
+        })
         .frame(width: SizeConstants.cardWidth, height: SizeConstants.cardHeight)
         .clipShape(RoundedRectangle(cornerRadius:10))
         .offset(x: xOffset)
@@ -78,6 +82,21 @@ private extension CardView {
     func returnToCenter() {
         xOffset = 0
         degrees = 0
+    }
+    
+    func onReceiveSwipeAction(_ action: SwipeAction?) {
+        guard let action else { return }
+        //do swipe on currently shown card
+        let topCard = viewModel.cardModels.last
+        
+        if topCard == model {
+            switch action {
+            case .reject:
+                swipeLeft()
+            case .like:
+                swipeRight()
+            }
+        }
     }
 }
 
