@@ -11,7 +11,7 @@ import SwiftUI
 struct VerveVibeApp: App {
     var body: some Scene {
         WindowGroup {
-            CardStackView()
+            MainTabView()
         }
     }
 }
