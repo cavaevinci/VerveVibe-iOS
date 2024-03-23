@@ -35,7 +35,7 @@ struct CardView: View {
             UserInfoView(showProfileModal: $showProfileModal, user: user)
         }
         .fullScreenCover(isPresented: $showProfileModal) {
-            Text("User Profile")
+            UserProfileView(user: user)
         }
         .onReceive(viewModel.$buttonSwipeAction, perform: { action in
             //action is left or right
