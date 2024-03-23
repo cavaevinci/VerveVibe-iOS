@@ -11,7 +11,7 @@ import SwiftUI
 struct VerveVibeApp: App {
     var body: some Scene {
         WindowGroup {
-            CardView()
+            CardView(model: CardModel(user: MockData.users[1]))
         }
     }
 }
