@@ -49,13 +49,36 @@ struct CardView: View {
 }
 
 private extension CardView {
+    func swipeRight() {
+        xOffset = 500
+        degrees = 12
+    }
+    
+    func swipeLeft() {
+        xOffset = -500
+        degrees = -12
+    }
+    
+    func returnToCenter() {
+        xOffset = 0
+        degrees = 0
+    }
+}
+
+private extension CardView {
     func onDragEnded(_ value: _ChangedGesture<DragGesture>.Value) {
         let width = value.translation.width
         //use abs to remove negative or possitive
             //like -200 or 200
         if abs(width) <= abs(SizeConstants.screenCutoff) {
-            xOffset = 0
-            degrees = 0
+            returnToCenter()
+            return
+        }
+        
+        if width >= SizeConstants.screenCutoff {
+            swipeRight()
+        } else  {
+            swipeLeft()
         }
     }
     
