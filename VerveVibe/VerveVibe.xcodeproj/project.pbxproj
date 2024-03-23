@@ -31,6 +31,8 @@
 		3F6618712BAE867B003C6C0E /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6618702BAE867B003C6C0E /* UserProfileView.swift */; };
 		3F6618752BAE8C61003C6C0E /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6618742BAE8C61003C6C0E /* CurrentUserProfileView.swift */; };
 		3F6618772BAE8C9D003C6C0E /* CurrentUserProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6618762BAE8C9D003C6C0E /* CurrentUserProfileHeaderView.swift */; };
+		3F66187A2BAE91BC003C6C0E /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6618792BAE91BC003C6C0E /* EditProfileView.swift */; };
+		3F66187C2BAE9315003C6C0E /* ProfileImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66187B2BAE9315003C6C0E /* ProfileImageGridView.swift */; };
 		3FFBCF852BAE5F1500588C7E /* CardImageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBCF842BAE5F1500588C7E /* CardImageIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +81,8 @@
 		3F6618702BAE867B003C6C0E /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		3F6618742BAE8C61003C6C0E /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		3F6618762BAE8C9D003C6C0E /* CurrentUserProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileHeaderView.swift; sourceTree = "<group>"; };
+		3F6618792BAE91BC003C6C0E /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		3F66187B2BAE9315003C6C0E /* ProfileImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageGridView.swift; sourceTree = "<group>"; };
 		3FFBCF842BAE5F1500588C7E /* CardImageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -233,6 +237,7 @@
 		3F129F6A2BAA2D2C004D9269 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				3F6618782BAE91A9003C6C0E /* EditProfile */,
 				3F6618732BAE8C3A003C6C0E /* UserProfile */,
 				3F6618722BAE8C34003C6C0E /* CurrentUserProfile */,
 			);
@@ -339,6 +344,15 @@
 				3F6618702BAE867B003C6C0E /* UserProfileView.swift */,
 			);
 			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		3F6618782BAE91A9003C6C0E /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				3F6618792BAE91BC003C6C0E /* EditProfileView.swift */,
+				3F66187B2BAE9315003C6C0E /* ProfileImageGridView.swift */,
+			);
+			path = EditProfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -471,6 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F66187A2BAE91BC003C6C0E /* EditProfileView.swift in Sources */,
 				3F129F792BAB6BAE004D9269 /* ImageScrollingOverlay.swift in Sources */,
 				3F6618752BAE8C61003C6C0E /* CurrentUserProfileView.swift in Sources */,
 				3F6618712BAE867B003C6C0E /* UserProfileView.swift in Sources */,
@@ -484,6 +499,7 @@
 				3FFBCF852BAE5F1500588C7E /* CardImageIndicatorView.swift in Sources */,
 				3F66186D2BAE783B003C6C0E /* SwipeActionButtonsView.swift in Sources */,
 				3F6618622BAE6AC4003C6C0E /* CardModel.swift in Sources */,
+				3F66187C2BAE9315003C6C0E /* ProfileImageGridView.swift in Sources */,
 				3F66185A2BAE6507003C6C0E /* CardStackView.swift in Sources */,
 				3F129F702BAA2EFD004D9269 /* CardView.swift in Sources */,
 				3F129F772BAB5993004D9269 /* SizeConstants.swift in Sources */,
